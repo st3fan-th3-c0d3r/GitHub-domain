@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab&display=swap');
+
+* {
+margin: 0px;}
+
+.container {
+
+height: 10000px;
+
+
+}
+.content  {
+
+    height: 800px;
+    display: grid;
+    align-content: flex-start;
+    grid-template-columns: 100px, 700px;
+    grid-template-rows: 45px, 300px;
+    
+
+}
+
+
+
+.sidebar {
+
+
+    width: 160px;
+    height: 800px;
+    background: linear-gradient(#684EDE, #fff);
+    grid-row-start: 1;
+
+}
+
+
+.menubar {
+    background:linear-gradient(#684EDE, #775fe2) ;
+    height: 90px;
+    opacity: 98%;
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 100px 120px 120px 180px;
+    grid-column-gap: 60px;}
+
+
+
+.logo {
+margin-right: 30px;
+margin-left: 30px;
+height: 90px;
+width: 90px;
+
+}
+
+
+.getintouch{
+
+margin-left: 0px;
+margin-top: 40px;
+color: white;
+font-size: 16px;
+font-family: 'Roboto Slab', serif;
+text-decoration: none;
+
+}
+
+
+.getintouch:hover {
+
+    background: linear-gradient(#2CA5FF, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+    cursor: pointer;
+    text-decoration: underline;
+    
+    }
+    
+
+.store {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 17px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+
+.store:hover  {
+
+   background: linear-gradient(#2CA5FF, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    
+    }
+    
+
+
+.webhosting {
+    align-items: center;
+    margin-top: 40px;
+    font-size: 17px;
+  
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    
+}
+
+
+.webhosting:hover  {
+
+
+   background: linear-gradient(#2CA5FF, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    
+    }
+    
+
+.careers {
+    margin-right: 20px;
+    margin-left:20px ;
+    margin-top: 40px;
+    font-size: 17px;
+    width: 90px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.careers:hover  {
+
+    background: linear-gradient(#2CA5FF, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    
+    }
+    
+
+.support {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 17px;
+    width: 60px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+
+}
+
+.support:hover  {
+
+    background: linear-gradient(#2CA5FF, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    }
+    
+
+
+.shopbag {
+
+height: 40px;
+width: 40px;
+align-items: center;
+margin-top: 25px;
+
+}
+
+
+
+.shopbag:hover {
+cursor: pointer;}
+
+
+
+.signin {
+
+font-size: 22px;
+padding-left: 50px;
+margin-top: 35px;
+color: white;
+text-decoration: none;
+
+
+
+}
+
+
+.signin:hover {
+
+    background: linear-gradient(#2CA5FF, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.searchyourwebsite {
+
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-top: 50px;
+    height: 49px;
+    width: 750px;
+    background: #e0e0e0;
+    grid-row-start: 1 ;
+  
+
+
+}
+
+
+.findyourperfectwebsite  {
+color: #808080;
+margin-top: 10px;
+font-size: 25px;
+margin-left: 15px;
+font-family: 'Roboto', sans-serif;
+font-weight: lighter;
+
+}
+
+
+
+.buynow {
+
+    width: 120px;
+    height: 49.5px;
+    background-color: #2CA5FF;
+    margin-left: 750px;
+    margin-bottom: 0;
+    text-align: center;
+
+
+}
+
+
+.buynowtext {
+    
+font-size: 18px;
+color: white;
+padding-top: 15px;
+margin-top: -40px;
+font-weight: lighter;
+
+}
+
+
+.becomearetailer {
+
+  display: block;
+  width: 500px;
+  grid-row-start: -1;
+  margin-top: 250px;
+  margin-left: -1260px;
+  height: 400px;
+  text-align: center;
+
+
+}
+
+
+.becomearetailertext {
+
+    font-family: 'PT Serif', serif;
+
+}
+
+
+.becomearetailertext1  {
+
+    font-family: 'PT Serif', serif;
+
+}
+
+
+.becomearetailerbutton {
+
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 250px;
+    border-color: black;
+    
+}
+
+
+.becomearetailerbutton:hover  {
+
+cursor: pointer;
+
+
+}
+
+
+.buttontext {
+
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+
+
+}
+
+
+.becomearetailerimage {
+
+height: 650px;
+width: 670px;
+grid-row-start: -1;
+display: block;
+margin-left: 475px;
+margin-top: -345px;
+
+
+
+}

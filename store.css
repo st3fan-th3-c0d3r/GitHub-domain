@@ -15,8 +15,8 @@ height: 10000px;
     height: 800px;
     display: grid;
     align-content: flex-start;
-    grid-template-columns: 100px, 700px;
-    grid-template-rows: 45px, 300px;
+    grid-template-columns: 100px 700px;
+    grid-template-rows: 45px 300px;
     
 
 }
